@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+}
+.home {
+  display: flex;
+  gap: 20%;
+}
+.big {
+  font-size: 900%;
+  font-weight: 2000;
+}
+.play {
+  background-color: none;
+  color: black;
+  padding: 18px;
+  font-size: 20px;
+  display: inline-block;
+  border-radius: 16px;
+  border: none;
+  margin-left: 20px;
+}
+.play:hover {
+  color: white;
+  background-color: black;
+  transform: scale(120%, 120%);
+  transition: transform 0.5s;
+}
+.cen {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.Buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+.aaa {
+  background-color: white;
+  border-radius: 10px;
+  padding: 16px 35px;
+  font-size: 20px;
+  font-weight: 300;
+  display: inline-block;
+}
+.aaa:hover {
+  background-color: black;
+  color: white;
+  transform: scale(105%, 105%);
+  transition: transform 0.5s;
+}
+.Number {
+  display: flex;
+  gap: 10px;
+  left: 70%;
+  position: absolute;
+}
+.n {
+  padding: 25px 25px;
+  border-radius: 5px;
+  background-color: white;
+  font-weight: 500;
+  font-size: larger;
+}
+.n:hover {
+  background-color: black;
+  color: white;
+  transform: scale(105%, 105%);
+  transition: transform 0.5s;
+}
+.t {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  display: inline-block;
+}
+.sn {
+  font-size: 40px;
+}
+.sn1 {
+  font-size: 40px;
+}
+.score {
+  display: flex;
+}
