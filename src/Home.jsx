@@ -15,7 +15,7 @@ function Home() {
         </div>
         <div className="heading">
           <div className="text">
-            <h1 className="big">REACT THE RUMBLE</h1>
+            <h1 className="big">React Rumble</h1>
           </div>
           <div className="but1">
             <button className="play" onClick={handleClick}>
